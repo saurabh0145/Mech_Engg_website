@@ -1,0 +1,15 @@
+package com.app.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.app.model.Product;
+
+public interface ProductRepo extends JpaRepository<Product, Integer> {
+	
+	Product findByProductName(String productName);
+	@Override
+	default <S extends Product> S save(S entity) {
+		// TODO Auto-generated method stub
+		return ;
+	}
+}

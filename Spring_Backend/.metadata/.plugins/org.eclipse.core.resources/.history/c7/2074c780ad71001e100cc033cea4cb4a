@@ -1,0 +1,14 @@
+#serverTimezone=UTC
+spring.datasource.url=jdbc:mysql://localhost:3306/xc101?allowPublicKeyRetrieval=true&useSSL=false
+spring.datasource.username=root
+spring.datasource.password=India@1947
+
+# JPA properties
+spring.jpa.show-sql = true
+spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
+#Disable open session in view 
+spring.jpa.open-in-view=false
+
+#debug
+logging.level.org.springframework.security=debug

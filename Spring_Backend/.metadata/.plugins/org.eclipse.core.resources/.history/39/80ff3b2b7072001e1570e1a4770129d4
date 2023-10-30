@@ -1,0 +1,9 @@
+package com.app.service;
+
+import java.util.Optional;
+
+import com.app.model.Product;
+
+public interface IProductService {
+	Product getProductByName(String productName);
+}

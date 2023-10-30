@@ -1,0 +1,9 @@
+package com.app.service;
+
+import com.app.model.Product;
+
+public interface IProductService {
+	Product getProductByName(String productName);
+	Product addProduct(Product product);
+	Product getProductByName(Integer productId);
+}

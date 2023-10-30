@@ -1,0 +1,30 @@
+package com.app.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.app.model.Product;
+import com.app.repository.ProductRepo;
+
+import jakarta.transaction.Transactional;
+
+@Service
+@Transactional
+public class ProductServiceImpl implements IProductService {
+	
+	@Autowired
+	private ProductRepo productRepo;
+
+	@Override
+	public Product getProductByName(String productName) {
+		// TODO Auto-generated method stub
+		return productRepo.findByProductName(productName);
+	}
+
+	@Override
+	public Product addProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
