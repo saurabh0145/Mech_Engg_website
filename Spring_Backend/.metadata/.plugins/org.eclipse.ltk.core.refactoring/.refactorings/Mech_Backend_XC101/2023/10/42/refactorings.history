@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;com.app.service.ProductService&apos; to &apos;ProductServiceImpl&apos;&#x0D;&#x0A;- Original project: &apos;Mech_Backend_XC101&apos;&#x0D;&#x0A;- Original element: &apos;com.app.service.ProductService&apos;&#x0D;&#x0A;- Renamed element: &apos;com.app.service.ProductServiceImpl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ProductService&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.service{ProductService.java[ProductService" matchStrategy="1" name="ProductServiceImpl" qualified="false" references="true" similarDeclarations="false" stamp="1697875462048" textual="false" version="1.0"/>
-</session>

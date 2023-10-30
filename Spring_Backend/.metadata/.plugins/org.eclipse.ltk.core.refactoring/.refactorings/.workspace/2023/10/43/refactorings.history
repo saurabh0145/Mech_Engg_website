@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;day20-emp-backend&apos;" deleteContents="true" description="Delete resource &apos;day20-emp-backend&apos;" element1="/day20-emp-backend" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1698073083529"/>&#x0A;<refactoring comment="Delete resource &apos;Sprigboot-Backend-project&apos;" deleteContents="true" description="Delete resource &apos;Sprigboot-Backend-project&apos;" element1="/Sprigboot-Backend-project" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1698073612688"/>
-</session>
